@@ -1,0 +1,15 @@
+.Contenedor-Padre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.contenedor-hijo{
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: rgb(240, 179, 248);
+width: 200px;
+height: 200px;
+padding: 20px;
+}

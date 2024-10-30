@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #e0e0e0;
+    height: 823px;
+}
+
+nav, .contenido, aside {
+    background-color: #c0c0c0;
+    padding: 20px;
+    flex: 1;
+    margin: 5px;
+}
+footer {
+    background-color: #686868;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}

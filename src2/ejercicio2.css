@@ -1,0 +1,23 @@
+.Menu-Vertical{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(139,139,139);
+    width: 400px;
+    padding: 20px;
+    margin-bottom: 15px;   /*ayuda a separar los contenedores*/
+    border-radius: 6px;
+}
+.Menu-Vertical a{
+    text-decoration: none;
+    color: white;
+}
+#btn-entrar{
+border: none;
+cursor: pointer;
+border-radius: 5px;
+padding: 10px 20px;
+}
+#btn-entrar:hover{
+background-color: rgb(209, 209, 212);
+}
